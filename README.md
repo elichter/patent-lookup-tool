@@ -2,7 +2,7 @@
 
 <div align="center">
 
-![Python](https://img.shields.io/badge/Python-3.9%2B-blue?logo=python&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3.8%2B-blue?logo=python&logoColor=white)
 ![License](https://img.shields.io/badge/License-MIT-green)
 ![Google Patents](https://img.shields.io/badge/Source-Google%20Patents-4285F4?logo=google&logoColor=white)
 ![EPO OPS](https://img.shields.io/badge/API-EPO%20OPS-003087)
@@ -124,7 +124,7 @@ playwright install chromium      # only needed for design patents (29/xxx serial
 ```bash
 git clone https://github.com/elichter/patent-lookup-tool
 cd patent-lookup-tool
-conda create -n patent-lookup python=3.11
+conda create -n patent-lookup python=3.8
 conda activate patent-lookup
 conda install -c conda-forge requests beautifulsoup4 lxml pandas openpyxl python-dotenv
 pip install playwright            # playwright not on conda-forge; install via pip
